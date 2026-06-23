@@ -9,8 +9,8 @@ pipeline {
 
                 dir('D:\\dev\\my-project\\Frontend\\demo-react') {
 
-                    bat 'npm install'
-                    bat 'npm run build'
+                    sh 'npm install'
+                    sh 'npm run build'
 
                 }
             }
