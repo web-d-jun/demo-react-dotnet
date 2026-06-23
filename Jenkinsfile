@@ -5,7 +5,7 @@ pipeline {
         frontend_path = "Frontend/demo-react"
         project_path  = "."
         publish_path  = "publish"
-        csproj_name   = "demo-react-dotnet.csproj"
+        csproj_name   = "DemoWeb.csproj"
     }
 
     stages {
